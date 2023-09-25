@@ -3,10 +3,29 @@
     <head>
         <title> Мой веб-сайт </title>
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href=".\img\giphy.gif" type="image/x-icon">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            /* Set additional styling options for the columns*/
+            .column {
+                margin:0%;
+                padding:2%;
+                float: left;
+                height: 500px;
+                width: 50%;
+            }
+        </style>
     </head>
     <body>
         <h1>Мой кот мимимишный</h1>
         <h2> <a href="https://vk.com/id12893129"> Сайт моего друга </a> </h2>
-        <img src=".\img\images.jpg" alt="Солнце">
+        <div class="column" style="background-color: chartreuse;">
+            <img src=".\img\giphy.gif" alt="Gif-изображение">
+        </div>
+        <div class="column" style="background-color: orchid;">
+            <img src=".\img\images.jpg" alt="Солнце">
+        </div>
     </body>
 </html>
