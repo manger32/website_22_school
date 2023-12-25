@@ -1,6 +1,23 @@
 html{
-    font-size: 24px;
-    color:blue;
+    font-size: 16px;
+    color:rgb(46, 227, 22);
     font-family: 'Roboto', sans-serif;
-    background-color: gold;
+    background-color: rgb(0, 0, 0);
+}
+.new_year
+{
+    color:rgb(255, 2, 2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(46, 227, 22);
+}
+.german { 
+    float: left; /*Задаем обтекание*/ 
+    line-height: 120px;/*Высота строки + верт. центрирования текста*/ 
+    font-size: 40px; 
+    background: rgb(255, 255, 255); 
+    color: rgb(255, 2, 2); 
+    margin-top: 60px; 
+    width: 320px; /*Фиксируем ширину блока*/ 
+    margin-right: 10px; 
+    text-align: center; /*Центрируем текст по горизонтали*/ 
 }
